@@ -28,7 +28,7 @@ public class GrindstoneContainerMixin {
 		if (secondInput.getItem() != Items.ENCHANTED_GOLDEN_APPLE && !secondInput.isEmpty()) return;
 
 		int goldenApples = firstInput.getCount() + secondInput.getCount();
-		if (goldenApples > 0) {
+		if (goldenApples > 0 && goldenApples <= Items.GOLDEN_APPLE.getMaxCount()) {
 			this.resultInventory.setInvStack(0, new ItemStack(Items.GOLDEN_APPLE, goldenApples));
 			((GrindstoneContainer) (Object) this).sendContentUpdates();
 
