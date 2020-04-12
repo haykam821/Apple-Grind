@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "io.github.haykam821.applegrind.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"GrindstoneContainerMixin",
+		"GrindstoneContainerSlotMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

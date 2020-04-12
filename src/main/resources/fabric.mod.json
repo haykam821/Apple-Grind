@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "applegrind",
+	"version": "${version}",
+	"name": "Apple Grind",
+	"description": "Allows enchanted golden apples to be grinded in the grindstone.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Apple-Grind#readme",
+		"issues": "https://github.com/haykam821/Pretty-Planks/issues"
+	},
+	"mixins": [
+		"applegrind.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/applegrind/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
