@@ -21,7 +21,7 @@ public class GrindstoneContainerOutputSlotMixin {
 
 			Identifier advancementID = new Identifier("applegrind", "story/disenchant_golden_apple");
 			Advancement advancement = player.getServer().getAdvancementLoader().get(advancementID);
-			serverPlayer.getAdvancementTracker().grantCriterion(advancement, "impossible");
+			serverPlayer.getAdvancementTracker().grantCriterion(advancement, "disenchant_golden_apple");
 		}
 	}
 }
