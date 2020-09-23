@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://github.com/haykam821/Apple-Grind#readme",
-		"issues": "https://github.com/haykam821/Pretty-Planks/issues"
+		"issues": "https://github.com/haykam821/Apple-Grind/issues"
 	},
 	"mixins": [
 		"applegrind.mixin.json"
